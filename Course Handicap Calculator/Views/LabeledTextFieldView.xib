@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LabeledTextFieldView">
+            <connections>
+                <outlet property="label" destination="8ji-hp-14Z" id="7dk-4O-4Zc"/>
+                <outlet property="textField" destination="Vt2-Jq-k5V" id="msy-sJ-8Jq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="104"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ji-hp-14Z">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vt2-Jq-k5V" userLabel="Text Field">
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="8ji-hp-14Z" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3ts-hs-Qcc"/>
+                <constraint firstAttribute="trailing" secondItem="8ji-hp-14Z" secondAttribute="trailing" constant="10" id="6I8-Jl-1vD"/>
+                <constraint firstItem="8ji-hp-14Z" firstAttribute="trailing" secondItem="Vt2-Jq-k5V" secondAttribute="trailing" id="KtD-0U-DEa"/>
+                <constraint firstItem="8ji-hp-14Z" firstAttribute="leading" secondItem="Vt2-Jq-k5V" secondAttribute="leading" id="LK7-mO-X3S"/>
+                <constraint firstItem="8ji-hp-14Z" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="lKx-2D-Hyc"/>
+                <constraint firstAttribute="bottom" secondItem="Vt2-Jq-k5V" secondAttribute="bottom" id="psG-X8-Ngw"/>
+                <constraint firstItem="Vt2-Jq-k5V" firstAttribute="top" secondItem="8ji-hp-14Z" secondAttribute="bottom" constant="4" id="saj-Wm-sfL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="21" y="-294"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5092AD91E7BA37200ED94BB /* CourseHandicapCalculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B5092AD81E7BA37200ED94BB /* CourseHandicapCalculatorVC.m */; };
+		B5092ADB1E7BA48600ED94BB /* CourseHandicapCalculatorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5092ADA1E7BA48600ED94BB /* CourseHandicapCalculatorVC.xib */; };
+		B5092AE41E7BA68D00ED94BB /* LabeledTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5092AE31E7BA68D00ED94BB /* LabeledTextFieldView.m */; };
+		B5092AE61E7BAF9500ED94BB /* LabeledTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5092AE51E7BAF9500ED94BB /* LabeledTextFieldView.xib */; };
+		B511A89F1E7B8C40004CE142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B511A89E1E7B8C40004CE142 /* main.m */; };
+		B511A8A21E7B8C40004CE142 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B511A8A11E7B8C40004CE142 /* AppDelegate.m */; };
+		B511A8AA1E7B8C40004CE142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B511A8A91E7B8C40004CE142 /* Assets.xcassets */; };
+		B511A8AD1E7B8C40004CE142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B511A8AB1E7B8C40004CE142 /* LaunchScreen.storyboard */; };
+		B590894A1E7BBF2500320904 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B59089491E7BBF2500320904 /* Localizable.strings */; };
+		B590894E1E7BC56200320904 /* CourseHandicapCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B590894D1E7BC56200320904 /* CourseHandicapCalculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5092AD71E7BA37200ED94BB /* CourseHandicapCalculatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseHandicapCalculatorVC.h; sourceTree = "<group>"; };
+		B5092AD81E7BA37200ED94BB /* CourseHandicapCalculatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseHandicapCalculatorVC.m; sourceTree = "<group>"; };
+		B5092ADA1E7BA48600ED94BB /* CourseHandicapCalculatorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseHandicapCalculatorVC.xib; sourceTree = "<group>"; };
+		B5092AE21E7BA68D00ED94BB /* LabeledTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabeledTextFieldView.h; sourceTree = "<group>"; };
+		B5092AE31E7BA68D00ED94BB /* LabeledTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabeledTextFieldView.m; sourceTree = "<group>"; };
+		B5092AE51E7BAF9500ED94BB /* LabeledTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabeledTextFieldView.xib; sourceTree = "<group>"; };
+		B511A89A1E7B8C40004CE142 /* Course Handicap Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Course Handicap Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B511A89E1E7B8C40004CE142 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B511A8A01E7B8C40004CE142 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B511A8A11E7B8C40004CE142 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B511A8A91E7B8C40004CE142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B511A8AC1E7B8C40004CE142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B511A8AE1E7B8C40004CE142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B59089491E7BBF2500320904 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B590894C1E7BC56200320904 /* CourseHandicapCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseHandicapCalculator.h; sourceTree = "<group>"; };
+		B590894D1E7BC56200320904 /* CourseHandicapCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseHandicapCalculator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B511A8971E7B8C40004CE142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5092AD61E7BA37200ED94BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B5092AD71E7BA37200ED94BB /* CourseHandicapCalculatorVC.h */,
+				B5092AD81E7BA37200ED94BB /* CourseHandicapCalculatorVC.m */,
+				B5092ADA1E7BA48600ED94BB /* CourseHandicapCalculatorVC.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B5092AE11E7BA63800ED94BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5092AE21E7BA68D00ED94BB /* LabeledTextFieldView.h */,
+				B5092AE31E7BA68D00ED94BB /* LabeledTextFieldView.m */,
+				B5092AE51E7BAF9500ED94BB /* LabeledTextFieldView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B511A8911E7B8C40004CE142 = {
+			isa = PBXGroup;
+			children = (
+				B511A89C1E7B8C40004CE142 /* Course Handicap Calculator */,
+				B511A89B1E7B8C40004CE142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B511A89B1E7B8C40004CE142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B511A89A1E7B8C40004CE142 /* Course Handicap Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B511A89C1E7B8C40004CE142 /* Course Handicap Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				B590894B1E7BC53200320904 /* Utils */,
+				B59089481E7BBF2500320904 /* Resources */,
+				B5092AE11E7BA63800ED94BB /* Views */,
+				B5092AD61E7BA37200ED94BB /* ViewControllers */,
+				B511A8A01E7B8C40004CE142 /* AppDelegate.h */,
+				B511A8A11E7B8C40004CE142 /* AppDelegate.m */,
+				B511A8A91E7B8C40004CE142 /* Assets.xcassets */,
+				B511A8AB1E7B8C40004CE142 /* LaunchScreen.storyboard */,
+				B511A8AE1E7B8C40004CE142 /* Info.plist */,
+				B511A89D1E7B8C40004CE142 /* Supporting Files */,
+			);
+			path = "Course Handicap Calculator";
+			sourceTree = "<group>";
+		};
+		B511A89D1E7B8C40004CE142 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B511A89E1E7B8C40004CE142 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B59089481E7BBF2500320904 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B59089491E7BBF2500320904 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B590894B1E7BC53200320904 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B590894C1E7BC56200320904 /* CourseHandicapCalculator.h */,
+				B590894D1E7BC56200320904 /* CourseHandicapCalculator.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B511A8991E7B8C40004CE142 /* Course Handicap Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B511A8B11E7B8C40004CE142 /* Build configuration list for PBXNativeTarget "Course Handicap Calculator" */;
+			buildPhases = (
+				B511A8961E7B8C40004CE142 /* Sources */,
+				B511A8971E7B8C40004CE142 /* Frameworks */,
+				B511A8981E7B8C40004CE142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Course Handicap Calculator";
+			productName = "Course Handicap Calculator";
+			productReference = B511A89A1E7B8C40004CE142 /* Course Handicap Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B511A8921E7B8C40004CE142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Konstantin Mamaev";
+				TargetAttributes = {
+					B511A8991E7B8C40004CE142 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B511A8951E7B8C40004CE142 /* Build configuration list for PBXProject "Course Handicap Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B511A8911E7B8C40004CE142;
+			productRefGroup = B511A89B1E7B8C40004CE142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B511A8991E7B8C40004CE142 /* Course Handicap Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B511A8981E7B8C40004CE142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B590894A1E7BBF2500320904 /* Localizable.strings in Resources */,
+				B5092ADB1E7BA48600ED94BB /* CourseHandicapCalculatorVC.xib in Resources */,
+				B511A8AD1E7B8C40004CE142 /* LaunchScreen.storyboard in Resources */,
+				B5092AE61E7BAF9500ED94BB /* LabeledTextFieldView.xib in Resources */,
+				B511A8AA1E7B8C40004CE142 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B511A8961E7B8C40004CE142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B511A8A21E7B8C40004CE142 /* AppDelegate.m in Sources */,
+				B5092AD91E7BA37200ED94BB /* CourseHandicapCalculatorVC.m in Sources */,
+				B590894E1E7BC56200320904 /* CourseHandicapCalculator.m in Sources */,
+				B5092AE41E7BA68D00ED94BB /* LabeledTextFieldView.m in Sources */,
+				B511A89F1E7B8C40004CE142 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B511A8AB1E7B8C40004CE142 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B511A8AC1E7B8C40004CE142 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B511A8AF1E7B8C40004CE142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B511A8B01E7B8C40004CE142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B511A8B21E7B8C40004CE142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Course Handicap Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "konstantin.mamaev.Course-Handicap-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B511A8B31E7B8C40004CE142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Course Handicap Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "konstantin.mamaev.Course-Handicap-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B511A8951E7B8C40004CE142 /* Build configuration list for PBXProject "Course Handicap Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B511A8AF1E7B8C40004CE142 /* Debug */,
+				B511A8B01E7B8C40004CE142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B511A8B11E7B8C40004CE142 /* Build configuration list for PBXNativeTarget "Course Handicap Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B511A8B21E7B8C40004CE142 /* Debug */,
+				B511A8B31E7B8C40004CE142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B511A8921E7B8C40004CE142 /* Project object */;
+}
